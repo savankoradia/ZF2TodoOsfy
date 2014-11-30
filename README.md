@@ -1,11 +1,10 @@
-ZendSkeletonApplication
+ZF2TodoOsfy
 =======================
 
 Introduction
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+This is a simple todo application implementation for learning concepts of Zend
+Framework 2.
 
 Installation
 ------------
@@ -45,6 +44,10 @@ Alternatively, you can install using native git submodules:
 
     git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
 
+Manual Installation
+-------------------
+If you have ZF2 library, you can directly paste it into vendor directory.
+
 Web Server Setup
 ----------------
 
@@ -65,10 +68,10 @@ To setup apache, setup a virtual host to point to the public/ directory of the
 project and you should be ready to go! It should look something like below:
 
     <VirtualHost *:80>
-        ServerName zf2-tutorial.localhost
-        DocumentRoot /path/to/zf2-tutorial/public
+        ServerName todo-local.com
+        DocumentRoot /var/www/html/ZF2TodoOsfy
         SetEnv APPLICATION_ENV "development"
-        <Directory /path/to/zf2-tutorial/public>
+        <Directory /var/www/html/ZF2TodoOsfy>
             DirectoryIndex index.php
             AllowOverride All
             Order allow,deny
