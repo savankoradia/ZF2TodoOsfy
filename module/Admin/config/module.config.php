@@ -3,7 +3,7 @@
 return array(
     'router' => array(
         'routes' => array(
-            'store-admin' => array(
+            'admin' => array(
                 'type' => 'hostname',
                 'options' => array(
                     'route' => 'admin.todo-local.com',
