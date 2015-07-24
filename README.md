@@ -6,6 +6,11 @@ Introduction
 This is a simple todo application implementation for learning concepts of Zend
 Framework 2.
 
+Demo
+----
+User panel: http://todo.savankoradia.com/
+Admin panel: http://todo-admin.savankoradia.com/
+
 Installation
 ------------
 
